@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 "use client";
 import Image from "next/image";
 import HeroSVG from "../heroSVG";
@@ -8,13 +9,13 @@ export const Hero = () => {
   return (
     <section id="home">
       <div
-        className="flex justify-center relative  bg-[#191924] clip-path-mypolygon py-20 px-8 
+        className="flex justify-center relative  bg-[#191924] clip-path-mypolygon py-[140px] px-8 
       max-[640px]:py-16 max-[640px]:px-4
       max-[960px]:py-8 max-[960px]:px-4
       "
       >
         <div className="flex justify-end max-[960px]:justify-center max-[960px]:px-0  absolute right-0 bottom-0  w-full h-full max-w-[1360px] overflow-hidden top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] py-0 px-8">
-          <div className="w-[600px] h-80">
+          <div className="w-[600px] h-[600px]">
             <HeroSVG />
           </div>
         </div>
@@ -67,8 +68,8 @@ export const Hero = () => {
             >
               <Link
               target="_blank"
-                className="rounded-2xl py-3 px-7 font-semibold  max-w-[300px]
-                bg-[#8400FF] bg-gradient-to-r from-[#8400FF] to-[#E500FF] shadow-md shadow-[#1F2634] hover:shadow-md brightness-100
+                className="rounded-2xl py-3 px-7 font-semibold  max-w-[300px] 
+                bg-[#8400FF] bg-gradient-to-r from-[#8400FF] to-[#E500FF] brightness-100
                 "
                 href="https://drive.google.com/file/d/1Q5oOasrCApdF5fbfjAoqu67NRb_j-6FO/view?usp=sharing"
               >

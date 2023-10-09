@@ -16,10 +16,13 @@ const config: Config = {
         "xl": '1200px',
         "sm": '640px',
         "md": '768px',
+        "xs": "480px",
         "lg": '960px',
       },
     },
-
+    clipPath: {
+      mypolygon: "polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%)",
+    },
     extend: {
       colors: {
         background: "hsl(var(--background))",
@@ -27,6 +30,8 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }
 export default config
