@@ -44,7 +44,7 @@ export const Hero = () => {
                 I am a frontend web developer
               </p>
               <p
-                className="text-xl text-center md:text-start leading-8 mt-7 text-[#F2F3F4]
+                className="text-xl text-center md:text-start leading-8 mt-7 text-[#B1B2B3] font-semibold
               "
               >
                 experienced in creating immersive and engaging user experiences.
