@@ -52,3 +52,8 @@ body,
   position: relative !important;
   margin-top: 24px;
 }
+
+:is(.dark .dark\:bg-gray-700) {
+  --tw-bg-opacity: 1;
+  background-color: #1C1E27 !important;
+}

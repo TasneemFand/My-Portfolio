@@ -3,6 +3,7 @@ import type { Config } from 'tailwindcss'
 const config: Config = {
   darkMode: ['class'],
   content: [
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
@@ -34,6 +35,8 @@ const config: Config = {
   },
   plugins: [
     require('tailwind-clip-path'),
+    require("flowbite/plugin")
+
   ],
 }
 export default config
