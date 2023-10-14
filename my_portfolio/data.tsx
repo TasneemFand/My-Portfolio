@@ -27,7 +27,20 @@ export type TExperience = {
   location: string;
   tasks: string[];
   link: string;
-}[]
+}[];
+
+export type TProject = {
+  projectName: string;
+  Date?: string;
+  skills: string[];
+  descrp: string;
+  img: string[];
+  codeLink?: string;
+  liveLink?: string;
+  projectType?: string;
+  MyWorks?: string[];
+  excerpt?: string;
+}[];
 
 export const skills: TSkills = [
   {
@@ -122,7 +135,7 @@ export const skills: TSkills = [
   },
 ];
 
-export const education:TEducation = [
+export const education: TEducation = [
   {
     universityName: "Damascus",
     faculty: "Information Technology Engineering",
@@ -132,46 +145,243 @@ export const education:TEducation = [
     grade: "76.23%",
     img: "/images/ITE.jpg",
     specialization: "AI",
-    descrp: "I graduated with a bachelor's degree in information technology engineering at Damascus university, syria. I completed 10 semesters and have a degree of 76.23% and a CGPA of 8.02. I taken courses in Data Structures, Algorithms, Object-Oriented Programming languages (C++,Java), Database (MySQL), Operating Systems, Computer Networks, Mathematics and Statistics, AI (machine learning, deep learning, natural language processing). I worked on various group projects in my college."
+    descrp:
+      "I graduated with a bachelor's degree in information technology engineering at Damascus university, syria. I completed 10 semesters and have a degree of 76.23% and a CGPA of 8.02. I taken courses in Data Structures, Algorithms, Object-Oriented Programming languages (C++,Java), Database (MySQL), Operating Systems, Computer Networks, Mathematics and Statistics, AI (machine learning, deep learning, natural language processing). I worked on various group projects in my college.",
+  },
+];
 
-  }
-]
-
-export const experience:TExperience = [
+export const experience: TExperience = [
   {
-    companyName: 'EcoMundo',
-    position: 'Frontend Web Developer',
-    startData: 'Feb 2022',
-    endDate: 'Oct 2023',
-    worktype: 'Remotely',
-    location: 'Issy-les-Moulineaux, Île-de-France, France',
-    img: '/images/EcoMundo.jpg',
-    descrp: 'A Firm contains 51-200 employees around the world that provides expert services and software tools to their clients in the areas of Chemicals/Toxicology and Regulations.',
-    link: 'https://en.ecomundo.eu',
+    companyName: "EcoMundo",
+    position: "Frontend Web Developer",
+    startData: "Feb 2022",
+    endDate: "Oct 2023",
+    worktype: "Remotely",
+    location: "Issy-les-Moulineaux, Île-de-France, France",
+    img: "/images/EcoMundo.jpg",
+    descrp:
+      "A Firm contains 51-200 employees around the world that provides expert services and software tools to their clients in the areas of Chemicals/Toxicology and Regulations.",
+    link: "https://en.ecomundo.eu",
     tasks: [
-      'Discussed and reviewed specifications and mockups with the development team.',
-      'Developed and implemented highly responsive user interfaces using React.js and Ext.js framework.',
-      'Worked on migrating applications user interfaces from Ext.js framework to React.js library.',
-      'Played a role in Code review and refactoring the code.',
-      'Debugged and fixed bugs of the applications.',
-      'Presented product demos to the client.'
+      "Discussed and reviewed specifications and mockups with the development team.",
+      "Developed and implemented highly responsive user interfaces using React.js and Ext.js framework.",
+      "Worked on migrating applications user interfaces from Ext.js framework to React.js library.",
+      "Played a role in Code review and refactoring the code.",
+      "Debugged and fixed bugs of the applications.",
+      "Presented product demos to the client.",
     ],
     skills: [
-      'HTML',
-      'CSS',
-      'JavaScript',
-      'TypeScript',
-      'React JS',
-      'Ext JS',
-      'React Query',
-      'Recoil',
-      'React Router',
-      'Material UI',
-      'Graph QL',
-      'Agile',
-      'Git',
-      'Gitlab'
-    ]
-   
-  }
-]
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "TypeScript",
+      "React JS",
+      "Ext JS",
+      "React Query",
+      "Recoil",
+      "React Router",
+      "Material UI",
+      "Graph QL",
+      "Agile",
+      "Git",
+      "Gitlab",
+    ],
+  },
+];
+
+export const projects: TProject = [
+  {
+    projectName: "COSMETIC Factory",
+    projectType: "Associated with EcoMundo",
+    excerpt: 'COSMETIC Factory is an AI-powered cloud software solution for the cosmetic industry dedicated to providing expert supports at every stage of development.',
+    descrp:
+      "COSMETIC Factory is an AI-powered cloud software solution for the cosmetic industry dedicated to providing expert supports at every stage of development. It ensures the centralization of all aspects of the launch of a given cosmetic product. Everything from the conceptualization of your formulas to the creation of your regulatory documents and the global launch of your finished products is organized coherently within a single platform.",
+    Date: "Apr 2022",
+    MyWorks: [
+      "Worked on migrating the app from EXT js to React js.",
+      "Developed new features",
+      "Fixed bugs in the app",
+    ],
+    img: ["/images/cosmeticFactory.png"],
+    liveLink: "https://ecomundo.eu/tout-en-un/cosmetic-factory",
+    skills: [
+      "Html",
+      "Css",
+      "Javascript",
+      "Typescript",
+      "Reactjs",
+      "Extjs",
+      "Mui",
+      "React-query",
+      "Recoil",
+      "React-router",
+      "Graph-Ql",
+      "SQl",
+    ],
+  },
+  {
+    projectName: "Multimedia messaging App",
+    descrp:
+      "A voice, video, and text Real-time fully authenticated Web chat app where you can belong to groups and channels spend time with friends.",
+    skills: [
+      "Html",
+      "Css",
+      "Typescript",
+      "Nextjs",
+      "Socket.io",
+      "Clerk",
+      "TailwindCSS",
+      "Shadcn-ui",
+      "React-Query",
+      "Zustand",
+      "Prisma",
+      "SQLite",
+      "LiveKit",
+      "Next-themes",
+      "uploadThing",
+    ],
+    img: ["/images/chatApp.png"],
+    codeLink: "https://github.com/TasneemFand/Multimedia-messaging-platform",
+    MyWorks: [
+      "Worked on creating responsive user dashboard interfaces with light/dark mode",
+      "Implemented user authentication using Clerk OAuth2",
+      "Implemented backend APIs with prisma and SQLite database",
+      "Implemented real time chat using socket.io",
+      "Implemented real time audio and video rooms using LiveKit",
+      "Optimized app performance and data fetching using React Query",
+    ],
+    Date: "Aug 2023 - Oct 2023 ",
+  },
+  {
+    projectName: "Amazon App Dashboard",
+    excerpt: "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
+    descrp:
+      "A Simple web dashboard created with next js, material ui for styling and firebase for backend and authentication. it allows clients to view dashboard content, view categories and their items for purchasing.",
+    img: ["/images/AmazonDashboard.png"],
+    codeLink: "https://github.com/TasneemFand/Amazon-app",
+    Date: "Oct 2022 - Nov 2022",
+    skills: [
+      "Html",
+      "Css",
+      "typescript",
+      "Nextjs",
+      "material-ui",
+      "firebase",
+      "ReactContextAPI",
+    ],
+  },
+  {
+    projectName: "Blogger",
+    excerpt: 'A fully responsive Blogger Web App',
+    descrp: 
+      "A fully responsive Blogger Web App created with next js, Tailwind CSS for styling and GraphCMS which is a headless content management system based on GraphQL to manage the blogs content with hygraph platform. The app allows clients to view blogger content posts and full markdown articles based on categories, interacting with it by adding comments and showing the most common and recent posts.",
+    img: ["/images/bloggr.png"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "Nextjs",
+      "TailwindCSS",
+      "GraphCMS",
+      "Graph-Ql",
+      "ReactContextAPI",
+    ],
+    MyWorks: [
+      "Worked on creating responsive user interfaces with light/dark mode",
+      "Implemented backend GraphQl API requests with GraphCMS",
+      "Developed pre-rendered pages with Static Generation in Next js",
+      "Rendered markdown content",
+    ],
+    codeLink: "https://github.com/TasneemFand/Blogger",
+    Date: "June 2022 - Aug 2022",
+  },
+  {
+    projectName: "Travel Advisor",
+    descrp:
+      "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map",
+    codeLink: "https://github.com/TasneemFand/Travel-Advisor",
+    Date: "Sep 2021",
+    img: ["/images/travel.png"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "reactjs",
+      "react-leaflet",
+      "material-ui",
+      "axios",
+    ],
+  },
+  {
+    projectName: "loopstudios landing page",
+    descrp:
+      "A fully responsive design to code challenge from Frontend Mentor challenges",
+    img: ["/images/loopstudios.jpg"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "reactjs",
+      "material-ui",
+      "Flexbox",
+      "CSSGrid",
+      "mobile-design",
+    ],
+    codeLink: "https://github.com/TasneemFand/loopstudios-landing-page",
+    Date: "Dec 2021",
+  },
+  {
+    projectName: "Blogr landing page ",
+    descrp:
+      "A fully responsive design to code challenge from Frontend Mentor challenges",
+    img: ["/images/blogr_preview.jpg"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "reactjs",
+      "material-ui",
+      "Flexbox",
+      "CSSGrid",
+      "mobile-design",
+    ],
+    codeLink: "https://github.com/TasneemFand/Blogr-LandingPage",
+    Date: "Dec 2021",
+  },
+  {
+    projectName: "Shortly URL shortening API Challenge",
+    descrp:
+      "A fully responsive design to code challenge from Frontend Mentor challenges. it allows users to Shorten any valid URL and See a list of their shortened links.",
+    img: ["/images/shorten.jpg"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "reactjs",
+      "material-ui",
+      "Flexbox",
+      "CSSGrid",
+      "mobile-design",
+    ],
+    codeLink: "https://github.com/TasneemFand/url-shortening-api-master",
+    Date: "Nov 2021",
+  },
+  {
+    projectName: "sunnyside agency landing page",
+    descrp:
+      "A fully responsive design to code challenge from Frontend Mentor challenges",
+    img: ["/images/sunnyside.jpg"],
+    skills: [
+      "Html",
+      "Css",
+      "javaScript",
+      "reactjs",
+      "material-ui",
+      "Flexbox",
+      "CSSGrid",
+      "mobile-design",
+    ],
+    codeLink: "https://github.com/TasneemFand/sunnyside-agency-landing-page",
+    Date: "Nov 2021",
+  },
+];
