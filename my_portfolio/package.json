@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "flowbite": "^1.8.1",
+    "flowbite-react": "^0.6.4",
     "framer-motion": "^10.16.4",
     "next": "13.5.4",
     "next-themes": "^0.2.1",
@@ -17,7 +19,8 @@
     "react-dom": "^18",
     "react-scroll-component": "^0.6.7",
     "react-tilt": "^1.0.2",
-    "swiper": "^10.3.1"
+    "swiper": "^10.3.1",
+    "zustand": "^4.4.3"
   },
   "devDependencies": {
     "@types/node": "^20",
