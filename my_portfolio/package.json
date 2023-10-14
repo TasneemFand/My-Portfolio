@@ -14,7 +14,10 @@
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-anchor-link-smooth-scroll": "^1.0.12",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-scroll-component": "^0.6.7",
+    "react-tilt": "^1.0.2",
+    "swiper": "^10.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
