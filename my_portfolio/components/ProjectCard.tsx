@@ -1,9 +1,12 @@
 import { TProject } from "@/data";
+import { useModal } from "@/hooks/use-modal";
 import Image from "next/image";
 
 export const ProjectCard = ({ info }: { info: TProject[0] }) => {
+  const { onOpen } = useModal();
   return (
     <div
+      onClick={() => onOpen("ProjectDetails", { Project: info })}
       className="cursor-pointer h-[600px] overflow-hidden
     bg-[rgb(23,23,33)] rounded-2xl py-6 px-5 flex flex-col gap-4 transition-all duration-[0.5s] ease-in-out
     hover:translate-y-[-10px] brightness-105 shadow-[0_0_12px_4px_rgba(0,0,0,0.4)]
@@ -50,12 +53,11 @@ export const ProjectCard = ({ info }: { info: TProject[0] }) => {
               </div>
             </div>
           ) : null} */}
-            <div className="text-sm font-semibold max-[768px]:text-xs text-[#854CE6] first-letter:uppercase flex flex-wrap gap-2">
-              {info.skills.map((skill, index) => (
-                  <span key={index}>#{skill}</span>
-              ))}
-            </div>
-            
+          <div className="text-sm font-semibold max-[768px]:text-xs text-[#854CE6] first-letter:uppercase flex flex-wrap gap-2">
+            {info.skills.map((skill, index) => (
+              <span key={index}>#{skill}</span>
+            ))}
+          </div>
         </div>
       </div>
     </div>

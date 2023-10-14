@@ -199,8 +199,8 @@ export const projects: TProject = [
     Date: "Apr 2022",
     MyWorks: [
       "Worked on migrating the app from EXT js to React js.",
-      "Developed new features",
-      "Fixed bugs in the app",
+      "Developed new features.",
+      "Fixed bugs in the app.",
     ],
     img: ["/images/cosmeticFactory.png"],
     liveLink: "https://ecomundo.eu/tout-en-un/cosmetic-factory",
@@ -243,12 +243,12 @@ export const projects: TProject = [
     img: ["/images/chatApp.png"],
     codeLink: "https://github.com/TasneemFand/Multimedia-messaging-platform",
     MyWorks: [
-      "Worked on creating responsive user dashboard interfaces with light/dark mode",
-      "Implemented user authentication using Clerk OAuth2",
-      "Implemented backend APIs with prisma and SQLite database",
-      "Implemented real time chat using socket.io",
-      "Implemented real time audio and video rooms using LiveKit",
-      "Optimized app performance and data fetching using React Query",
+      "Worked on creating responsive user dashboard interfaces with light/dark mode.",
+      "Implemented user authentication using Clerk OAuth2.",
+      "Implemented backend APIs with prisma and SQLite database.",
+      "Implemented real time chat using socket.io.",
+      "Implemented real time audio and video rooms using LiveKit.",
+      "Optimized app performance and data fetching using React Query.",
     ],
     Date: "Aug 2023 - Oct 2023 ",
   },
@@ -260,6 +260,13 @@ export const projects: TProject = [
     img: ["/images/AmazonDashboard.png"],
     codeLink: "https://github.com/TasneemFand/Amazon-app",
     Date: "Oct 2022 - Nov 2022",
+    MyWorks: [
+      'Worked on creating responsive user dashboard interface with a sidebar that contains categories.',
+      'Developed server-side rendered dashboard products page and product details page.',
+      'Built a search bar for searching products by name or category.',
+      'Implemented realtime database with firebase.',
+      'Implemented authentication with firebase-auth.'
+    ],
     skills: [
       "Html",
       "Css",
@@ -287,10 +294,10 @@ export const projects: TProject = [
       "ReactContextAPI",
     ],
     MyWorks: [
-      "Worked on creating responsive user interfaces with light/dark mode",
-      "Implemented backend GraphQl API requests with GraphCMS",
-      "Developed pre-rendered pages with Static Generation in Next js",
-      "Rendered markdown content",
+      "Worked on creating responsive user interfaces with light/dark mode.",
+      "Implemented backend GraphQl API requests with GraphCMS.",
+      "Developed pre-rendered pages with Static Generation in Next js.",
+      "Rendered markdown content.",
     ],
     codeLink: "https://github.com/TasneemFand/Blogger",
     Date: "June 2022 - Aug 2022",
@@ -298,10 +305,16 @@ export const projects: TProject = [
   {
     projectName: "Travel Advisor",
     descrp:
-      "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map",
+      "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map.",
     codeLink: "https://github.com/TasneemFand/Travel-Advisor",
     Date: "Sep 2021",
     img: ["/images/travel.png"],
+    MyWorks: [
+      'Worked on creating responsive user interface with a searchbar.',
+      'Developed map with Geolocation.',
+      'Built searching for places around the current location and displayed the info of each place in a list.',
+      'Implemented Fetching restaurants, hotels and attractions from APIs.',
+    ],
     skills: [
       "Html",
       "Css",
@@ -315,7 +328,7 @@ export const projects: TProject = [
   {
     projectName: "loopstudios landing page",
     descrp:
-      "A fully responsive design to code challenge from Frontend Mentor challenges",
+      "A fully responsive design to code challenge from Frontend Mentor challenges.",
     img: ["/images/loopstudios.jpg"],
     skills: [
       "Html",
@@ -333,7 +346,7 @@ export const projects: TProject = [
   {
     projectName: "Blogr landing page ",
     descrp:
-      "A fully responsive design to code challenge from Frontend Mentor challenges",
+      "A fully responsive design to code challenge from Frontend Mentor challenges.",
     img: ["/images/blogr_preview.jpg"],
     skills: [
       "Html",
@@ -369,7 +382,7 @@ export const projects: TProject = [
   {
     projectName: "sunnyside agency landing page",
     descrp:
-      "A fully responsive design to code challenge from Frontend Mentor challenges",
+      "A fully responsive design to code challenge from Frontend Mentor challenges.",
     img: ["/images/sunnyside.jpg"],
     skills: [
       "Html",

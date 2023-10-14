@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { WorksSlider } from "../WorksSlider";
+import { ProjectModal } from "../ProjectModal";
 
 export const Projects = () => {
   return (
@@ -56,8 +57,9 @@ export const Projects = () => {
         }}
         className="py-8 w-[80%]"
       >
-          <WorksSlider/>
+        <WorksSlider />
       </motion.div>
+      <ProjectModal />
     </section>
   );
 };
