@@ -22,6 +22,8 @@ const config: Config = {
     },
     clipPath: {
       mypolygon: "polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%)",
+      polygonSkills: "polygon(0 0, 100% 0, 100% 100%,30% 98%, 0 100%)",
+      polygonProjects: "polygon(0 0, 100% 0, 100% 100%,100% 98%, 0 100%)"
     },
     extend: {
       colors: {
