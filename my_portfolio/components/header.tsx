@@ -16,9 +16,10 @@ export const Header = () => {
           {/**button */}
           <Link
             href="/#contact"
-            className="max-w-[300px] text-center py-3 px-8
-            text-white font-semibold text-xl
-           rounded-2xl cursor-pointer
+            className="text-center
+            text-white
+            py-3 px-7 font-semibold  max-w-[300px] 
+           rounded-2xl
             transition-all ease-in-out duration-[0.2s] bg-[#8400FF] bg-gradient-to-r from-[#8400FF] to-[#E500FF] hover:scale-[1.05]
             hover:duration-[0.4s] brightness-100
             "

@@ -7,7 +7,7 @@ export const ExperienceCardItem = ({ info }: { info: TExperience[0] }) => {
       className="w-[650px] border-[0.1px] border-solid border-[#854CE6] rounded-2xl
         shadow-[0px_4px_24px_rgba(23,92,230,0.15)] py-3 px-4 flex flex-col gap-3
         transition ease-in-out duration-[0.3s] hover:shadow-[0px_0px_20px_rgba(0,0,0,0.2)] hover:translate-y-[-5px]
-        max-[768px]:p-3 max-[768px]:gap-2 max-[768px]:w-[300px] bg-[#1c1c27]
+        max-[768px]:p-3 max-[768px]:gap-2 max-[768px]:w-[500px] bg-[#1c1c27] max-[640px]:w-[300px]
         group"
     >
       <div className="w-full flex gap-3">
@@ -31,20 +31,20 @@ export const ExperienceCardItem = ({ info }: { info: TExperience[0] }) => {
         </div>
       </div>
       <div className="px-3 flex flex-col gap-4">
-        <div className=" flex flex-wrap text-sm font-semibold text-[#b1b2b399] max-[768px]:text-xs leading-7 ">
+        <div className=" flex flex-wrap text-sm font-semibold text-[#b1b2b399] max-[768px]:text-xs leading-7 max-[768px]:leading-8 ">
           {info.descrp}
         </div>
         <div className="text-base font-semibold text-[#f2f3f499] max-[768px]:text-sm ">
           My Tasks:
         </div>
-        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 flex flex-wrap">
+        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 max-[768px]:leading-8 flex flex-wrap">
           <ul className="list-disc">
             {info.tasks.map((task, index) => (
               <li key={index}>{task}</li>
             ))}
           </ul>
         </div>
-        <div className="flex max-[768px]:flex-col gap-3 flex-wrap">
+        <div className="flex gap-3 flex-wrap">
           <div className="text-base font-semibold text-[#f2f3f499] max-[768px]:text-sm ">
             Skills:
           </div>
