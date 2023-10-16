@@ -3,7 +3,6 @@ import { Modal } from "flowbite-react";
 
 export const ProjectModal = () => {
   const { data, isOpen, onClose, type } = useModal();
-  debugger;
   return (
     <Modal
       show={isOpen && type === "ProjectDetails"}

@@ -40,7 +40,7 @@ export const Hero = () => {
                 <span className="text-purple-800 font-semibold">Fandakli</span>
               </p>
 
-              <p className="mt-3 mb-7 text-3xl text-center md:text-start uppercase font-semibold">
+              <p className="mt-7 mb-7 text-3xl text-center md:text-start uppercase font-semibold">
                 I am a frontend web developer
               </p>
               <p
@@ -95,6 +95,7 @@ export const Hero = () => {
               alt="my profile photo"
               width={400}
               height={400}
+              priority
               className="relative w-full h-full max-w-[400px] max-h-[400px] border-2 border-[#854CE6] border-solid rounded-[50%]
                 max-[640px]:max-w-[280px] max-[640px]:max-h-[280px] 
                 max-[768px]:max-w-[400px] max-[768px]:max-h-[400px]"
