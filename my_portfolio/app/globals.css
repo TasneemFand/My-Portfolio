@@ -57,3 +57,11 @@ body,
   --tw-bg-opacity: 1;
   background-color: #1C1E27 !important;
 }
+:is(.dark .dark\:focus\:border-cyan-500:focus) {
+  border-color: rgb(133, 76, 230) !important;
+}
+
+.focus\:ring-cyan-500:focus {
+  outline: none !important;
+  --tw-ring-color: unset !important
+}
