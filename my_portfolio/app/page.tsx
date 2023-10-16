@@ -1,4 +1,6 @@
 import { Header } from "@/components/header";
+import { Footer } from "@/components/sections/Footer";
+import { Contact } from "@/components/sections/contact";
 import { Experience } from "@/components/sections/experience";
 import { Hero } from "@/components/sections/hero";
 import { Projects } from "@/components/sections/projects";
@@ -17,12 +19,16 @@ export default function Home() {
         <Skills />
         <Experience />
       </div>
-      <div
-        className="bg-[linear-gradient(343.07deg,_rgba(132,59,206,0.06)_5.71%,_rgba(132,59,206,0)_64.83%)] clip-path-polygonProjects"
-      >
+      <div className="bg-[linear-gradient(343.07deg,_rgba(132,59,206,0.06)_5.71%,_rgba(132,59,206,0)_64.83%)] clip-path-polygonProjects">
         <Projects />
       </div>
-    
+      <div
+        className="bg-[linear-gradient(38.73deg,_rgba(204,0,187,0.15)_0%,_rgba(201,32,184,0)_50%),linear-gradient(141.27deg,_rgba(0,70,209,0)_50%,_rgba(0,70,209,0.15)_100%)]
+        clip-path-polygonContact"
+      >
+        <Contact />
+      </div>
+      <Footer/>
     </div>
   );
 }
