@@ -90,7 +90,7 @@ export const Hero = () => {
             "
           >
             <Image
-              src={"images/profile.webp"}
+              src={"/images/profile.webp"}
               alt="my profile photo"
               width={400}
               height={400}

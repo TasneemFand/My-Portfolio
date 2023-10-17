@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="flex justify-between items-center">
           {/**logo */}
           <Image
-            src={"images/logo.webp"}
+            src={"/images/logo.webp"}
             alt={"logo"}
             width={200}
             height={200}
