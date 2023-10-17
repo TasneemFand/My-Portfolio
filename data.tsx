@@ -45,92 +45,92 @@ export type TProject = {
 export const skills: TSkills = [
   {
     name: "html",
-    img: "/images/html.webp",
+    img: "images/html.webp",
     width: 100,
   },
   {
     name: "css",
-    img: "/images/CSS.webp",
+    img: "images/CSS.webp",
     width: 100,
   },
   {
     name: "javascript",
-    img: "/images/Js.webp",
+    img: "images/Js.webp",
     width: 100,
   },
   {
     name: "typescript",
-    img: "/images/TS.webp",
+    img: "images/TS.webp",
     width: 100,
   },
   {
     name: "react js",
-    img: "/images/React.webp",
+    img: "images/React.webp",
     width: 100,
   },
   {
     name: "next js",
-    img: "/images/next.webp",
+    img: "images/next.webp",
     width: 100,
   },
   {
     name: "ext js",
-    img: "/images/extJs.webp",
+    img: "images/extJs.webp",
     width: 100,
   },
   {
     name: "material ui",
-    img: "/images/mui.webp",
+    img: "images/mui.webp",
     width: 100,
   },
   {
     name: "react query",
-    img: "/images/reactquery.webp",
+    img: "images/reactquery.webp",
     width: 100,
   },
   {
     name: "recoil",
-    img: "/images/recoil.webp",
+    img: "images/recoil.webp",
     width: 100,
   },
   {
     name: "redux",
-    img: "/images/redux.webp",
+    img: "images/redux.webp",
     width: 100,
   },
   {
     name: "react router",
-    img: "/images/ReactRouter.webp",
+    img: "images/ReactRouter.webp",
     width: 100,
   },
   {
     name: "tailwind css",
-    img: "/images/Tailwind.webp",
+    img: "images/Tailwind.webp",
     width: 100,
   },
   {
     name: "graph ql",
-    img: "/images/GraphQl.webp",
+    img: "images/GraphQl.webp",
     width: 100,
   },
   {
     name: "git",
-    img: "/images/git.webp",
+    img: "images/git.webp",
     width: 100,
   },
   {
     name: "gitlab",
-    img: "/images/gitlab.webp",
+    img: "images/gitlab.webp",
     width: 100,
   },
   {
     name: "github",
-    img: "/images/github.webp",
+    img: "images/github.webp",
     width: 100,
   },
   {
     name: "figma",
-    img: "/images/Figma.webp",
+    img: "images/Figma.webp",
     width: 100,
   },
 ];
@@ -143,7 +143,7 @@ export const education: TEducation = [
     startData: "2016",
     endDate: "2021",
     grade: "76.23%",
-    img: "/images/ITE.webp",
+    img: "images/ITE.webp",
     specialization: "AI",
     descrp:
       "I graduated with a bachelor's degree in information technology engineering at Damascus university, syria. I completed 10 semesters and have a degree of 76.23% and a CGPA of 8.02. I taken courses in Data Structures, Algorithms, Object-Oriented Programming languages (C++,Java), Database (MySQL), Operating Systems, Computer Networks, Mathematics and Statistics, AI (machine learning, deep learning, natural language processing). I worked on various group projects in my college.",
@@ -158,7 +158,7 @@ export const experience: TExperience = [
     endDate: "Oct 2023",
     worktype: "Remotely",
     location: "Issy-les-Moulineaux, Île-de-France, France",
-    img: "/images/EcoMundo.webp",
+    img: "images/EcoMundo.webp",
     descrp:
       "A Firm contains 51-200 employees around the world that provides expert services and software tools to their clients in the areas of Chemicals/Toxicology and Regulations.",
     link: "https://en.ecomundo.eu",
@@ -202,7 +202,7 @@ export const projects: TProject = [
       "Developed new features.",
       "Fixed bugs in the app.",
     ],
-    img: ["/images/cosmeticFactory.webp"],
+    img: ["images/cosmeticFactory.webp"],
     liveLink: "https://ecomundo.eu/tout-en-un/cosmetic-factory",
     skills: [
       "Html",
@@ -240,7 +240,7 @@ export const projects: TProject = [
       "Next-themes",
       "uploadThing",
     ],
-    img: ["/images/chatApp.webp"],
+    img: ["images/chatApp.webp"],
     codeLink: "https://github.com/TasneemFand/Multimedia-messaging-platform",
     MyWorks: [
       "Worked on creating responsive user dashboard interfaces with light/dark mode.",
@@ -257,7 +257,7 @@ export const projects: TProject = [
     excerpt: "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
     descrp:
       "A Simple web dashboard created with next js, material ui for styling and firebase for backend and authentication. it allows clients to view dashboard content, view categories and their items for purchasing.",
-    img: ["/images/AmazonDashboard.webp"],
+    img: ["images/AmazonDashboard.webp"],
     codeLink: "https://github.com/TasneemFand/Amazon-app",
     Date: "Oct 2022 - Nov 2022",
     MyWorks: [
@@ -282,7 +282,7 @@ export const projects: TProject = [
     excerpt: 'A fully responsive Blogger Web App',
     descrp: 
       "A fully responsive Blogger Web App created with next js, Tailwind CSS for styling and GraphCMS which is a headless content management system based on GraphQL to manage the blogs content with hygraph platform. The app allows clients to view blogger content posts and full markdown articles based on categories, interacting with it by adding comments and showing the most common and recent posts.",
-    img: ["/images/bloggr.webp"],
+    img: ["images/bloggr.webp"],
     skills: [
       "Html",
       "Css",
@@ -308,7 +308,7 @@ export const projects: TProject = [
       "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map.",
     codeLink: "https://github.com/TasneemFand/Travel-Advisor",
     Date: "Sep 2021",
-    img: ["/images/travel.webp"],
+    img: ["images/travel.webp"],
     MyWorks: [
       'Worked on creating responsive user interface with a searchbar.',
       'Developed map with Geolocation.',
@@ -329,7 +329,7 @@ export const projects: TProject = [
     projectName: "loopstudios landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/loopstudios.webp"],
+    img: ["images/loopstudios.webp"],
     skills: [
       "Html",
       "Css",
@@ -347,7 +347,7 @@ export const projects: TProject = [
     projectName: "Blogr landing page ",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/blogr_preview.webp"],
+    img: ["images/blogr_preview.webp"],
     skills: [
       "Html",
       "Css",
@@ -365,7 +365,7 @@ export const projects: TProject = [
     projectName: "Shortly URL shortening API Challenge",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges. it allows users to Shorten any valid URL and See a list of their shortened links.",
-    img: ["/images/shorten.webp"],
+    img: ["images/shorten.webp"],
     skills: [
       "Html",
       "Css",
@@ -383,7 +383,7 @@ export const projects: TProject = [
     projectName: "sunnyside agency landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/sunnyside.webp"],
+    img: ["images/sunnyside.webp"],
     skills: [
       "Html",
       "Css",
