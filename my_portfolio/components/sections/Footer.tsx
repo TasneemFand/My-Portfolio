@@ -14,11 +14,13 @@ export const Footer = () => {
           <Link
             href="https://www.linkedin.com/in/tasneem-fandakli"
             target="_blank"
+            aria-label="linkedIn profile"
           >
             <FaLinkedin />
           </Link>
           <Link
             href="https://github.com/TasneemFand"
+            aria-label="Github profile"
             target="_blank"
           >
             <FaGithub />

@@ -67,7 +67,7 @@ export const Hero = () => {
               }}
             >
               <Link
-              target="_blank"
+                target="_blank"
                 className="rounded-2xl py-3 px-7 font-semibold  max-w-[300px] 
                 bg-[#8400FF] bg-gradient-to-r from-[#8400FF] to-[#E500FF] brightness-100
                 "
@@ -75,15 +75,14 @@ export const Hero = () => {
               >
                 Check Resume
               </Link>
-              <Link
-                href="/#contact"
-              >
+              <Link href="/#contact">
                 <div className="hover:text-purple-600 transition duration-500 w-full h-full flex items-center justify-center px-7 text-xl">
                   Let's talk.
                 </div>
               </Link>
             </motion.div>
           </div>
+
           <div
             className="w-full flex order-2 justify-end gap-3 
             max-[960px]:order-1 max-[960px]:justify-center max-[960px]:items-center max-[960px]:mb-20
@@ -91,7 +90,7 @@ export const Hero = () => {
             "
           >
             <Image
-              src={"/images/profile.jpg"}
+              src={"/images/profile.webp"}
               alt="my profile photo"
               width={400}
               height={400}
