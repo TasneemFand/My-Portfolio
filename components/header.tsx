@@ -14,6 +14,7 @@ export const Header = () => {
             alt={"logo"}
             width={200}
             height={200}
+            priority
           />
           {/**button */}
           <Link
