@@ -2,7 +2,7 @@
 "use client";
 
 import { Alert, Button, TextInput, Textarea } from "flowbite-react";
-import { useRef, useState } from "react";
+import { FormEvent, useRef, useState } from "react";
 import { HiMail } from "react-icons/hi";
 import emailjs from "@emailjs/browser";
 import { AiOutlineLoading } from "react-icons/ai";
@@ -16,7 +16,7 @@ export const Contact = () => {
     color: "",
   });
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setLoading(true);
 
