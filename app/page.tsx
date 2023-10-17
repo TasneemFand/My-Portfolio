@@ -1,15 +1,18 @@
-import { Header } from "@/components/header";
 import { Footer } from "@/components/sections/Footer";
 import { Contact } from "@/components/sections/contact";
 import { Experience } from "@/components/sections/experience";
 import { Hero } from "@/components/sections/hero";
 import { Projects } from "@/components/sections/projects";
 import { Skills } from "@/components/sections/skills";
+import dynamic from "next/dynamic";
 
 export default function Home() {
+  const MyComponent = dynamic<{}>(() =>
+    import("../components/header").then(module =>   module.default)
+);
   return (
     <div className="h-full overflow-x-hidden w-full">
-      <Header />
+      <MyComponent />
       <Hero />
       <div
         className="clip-path-polygonSkills max-[768px]:clip-path-none
