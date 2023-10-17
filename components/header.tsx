@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
- const Header = () => {
+export const Header = () => {
   return (
     <header className="py-8 bg-[#191924]">
       <div className="container mx-auto">
@@ -34,4 +34,3 @@ import Link from "next/link";
     </header>
   );
 };
-export default Header;
