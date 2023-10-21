@@ -36,7 +36,7 @@ export const ProjectCard = ({ info }: { info: TProject[0] }) => {
         </div>
 
         <div className="flex flex-col gap-3 mt-3 ">
-          <div className=" flex flex-wrap text-sm font-semibold text-[#f2f3f499] max-[768px]:text-xs leading-7 ">
+          <div className=" flex flex-wrap text-sm font-semibold text-[#f2f3f499] max-[768px]:text-xs leading-7 max-[768px]:leading-5 ">
             {info.excerpt ?? info.descrp}
           </div>
           {/* {info.MyWorks ? (

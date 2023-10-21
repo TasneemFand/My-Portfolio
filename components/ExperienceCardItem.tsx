@@ -31,13 +31,13 @@ export const ExperienceCardItem = ({ info }: { info: TExperience[0] }) => {
         </div>
       </div>
       <div className="px-3 flex flex-col gap-4">
-        <div className=" flex flex-wrap text-sm font-semibold text-[#b1b2b399] max-[768px]:text-xs leading-7 max-[768px]:leading-8 ">
+        <div className=" flex flex-wrap text-sm font-semibold text-[#b1b2b399] max-[768px]:text-xs leading-7 max-[768px]:leading-5 ">
           {info.descrp}
         </div>
         <div className="text-base font-semibold text-[#f2f3f499] max-[768px]:text-sm ">
           My Tasks:
         </div>
-        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 max-[768px]:leading-8 flex flex-wrap">
+        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 max-[768px]:leading-5 flex flex-wrap">
           <ul className="list-disc">
             {info.tasks.map((task, index) => (
               <li key={index}>{task}</li>

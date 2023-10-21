@@ -36,7 +36,7 @@ export const EducationCardItem = ({ info }: { info: TEducation[0] }) => {
           <b>Grade: </b>
           {info.grade}
         </div>
-        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 max-[768px]:leading-8 flex flex-wrap">
+        <div className="text-sm font-semibold text-[#f2f3f499]  max-[768px]:text-xs leading-7 max-[768px]:leading-5 flex flex-wrap">
           <span>{info.descrp}</span>
         </div>
       </div>

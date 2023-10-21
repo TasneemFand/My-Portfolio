@@ -38,7 +38,7 @@ export const ProjectModal = () => {
           <div className="text-xl font-semibold max-[768px]:text-lg">
             {data.Project?.projectName}
           </div>
-          <div className=" flex flex-wrap text-sm max-[768px]:text-xs leading-7 ">
+          <div className=" flex flex-wrap text-sm max-[768px]:text-xs leading-7 max-[768px]:leading-5">
             {data?.Project?.descrp}
           </div>
           {data.Project?.MyWorks ? (
@@ -46,7 +46,7 @@ export const ProjectModal = () => {
               <div className="text-base font-semibold  max-[768px]:text-sm ">
                 What I worked on:
               </div>
-              <div className="text-sm  max-[768px]:text-xs leading-7 flex flex-wrap">
+              <div className="text-sm  max-[768px]:text-xs leading-7 max-[768px]:leading-5 flex flex-wrap">
                 <ul className="list-disc">
                   {data.Project?.MyWorks?.map((task, index) => (
                     <li key={index}>{task}</li>
