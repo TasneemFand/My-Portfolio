@@ -39,30 +39,61 @@ export const Skills = () => {
           for over two years
         </p>
       </motion.div>
-      <div className="flex flex-wrap justify-center gap-4 text-center py-8 w-[70%]">
-        {skills.map((skill) => (
-          <motion.div
-            key={skill.name}
-            initial="hidden"
-            whileInView="visible"
-            viewport={{ once: true, amount: 0.5 }}
-            transition={{ duration: 0.6 }}
-            variants={{
-              hidden: { opacity: 0, scale: 0.8 },
-              visible: { opacity: 1, scale: 1 },
-            }}
-          >
-            <div className=" flex flex-col h-full items-center justify-center gap-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-6 px-8">
-              <Image
-                src={skill.img}
-                alt={skill.name}
-                width={100}
-                height={100}
-              />
-              <p className="font-semibold uppercase text-[#f2f3f480]">{skill.name}</p>
-            </div>
-          </motion.div>
-        ))}
+      <div className="flex justify-center text-center py-8 w-[70%]">
+        <div className="max-[640px]:hidden flex flex-wrap justify-center gap-4">
+          {skills.map((skill) => (
+            <motion.div
+              key={skill.name}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.6 }}
+              variants={{
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+            >
+              <div className=" flex flex-col h-full items-center justify-center gap-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-6 px-8">
+                <Image
+                  src={skill.img}
+                  alt={skill.name}
+                  width={100}
+                  height={100}
+                />
+                <p className="font-semibold uppercase text-[#f2f3f480]">
+                  {skill.name}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+        <div className="hidden max-[640px]:flex flex-wrap gap-2 justify-center">
+          {skills.map((skill) => (
+            <motion.div
+              key={skill.name}
+              initial="hidden"
+              whileInView="visible"
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{ duration: 0.6 }}
+              variants={{
+                hidden: { opacity: 0, scale: 0.8 },
+                visible: { opacity: 1, scale: 1 },
+              }}
+            >
+              <div className=" w-[100px] flex flex-col h-full items-center justify-center gap-4 shadow-md shadow-[#040c16] hover:scale-110 duration-500 py-2 px-4">
+                <Image
+                  src={skill.img}
+                  alt={skill.name}
+                  width={100}
+                  height={100}
+                />
+                <p className="font-semibold uppercase text-[#f2f3f480] text-xs">
+                  {skill.name}
+                </p>
+              </div>
+            </motion.div>
+          ))}
+        </div>
       </div>
     </section>
   );
