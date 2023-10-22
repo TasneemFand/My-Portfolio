@@ -1,6 +1,7 @@
 import { ThemeProvider } from '@/components/providers/theme-provider'
 import './globals.css'
 import type { Metadata } from 'next'
+import { Analytics } from '@vercel/analytics/react';
 
 
 
@@ -25,6 +26,7 @@ export default function RootLayout({
             >
               {children}
           </ThemeProvider>
+          <Analytics />
       </body>
     </html>
   )
