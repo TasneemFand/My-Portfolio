@@ -193,7 +193,8 @@ export const projects: TProject = [
   {
     projectName: "COSMETIC Factory",
     projectType: "Associated with EcoMundo",
-    excerpt: 'COSMETIC Factory is an AI-powered cloud software solution for the cosmetic industry dedicated to providing expert supports at every stage of development.',
+    excerpt:
+      "COSMETIC Factory is an AI-powered cloud software solution for the cosmetic industry dedicated to providing expert supports at every stage of development.",
     descrp:
       "COSMETIC Factory is an AI-powered cloud software solution for the cosmetic industry dedicated to providing expert supports at every stage of development. It ensures the centralization of all aspects of the launch of a given cosmetic product. Everything from the conceptualization of your formulas to the creation of your regulatory documents and the global launch of your finished products is organized coherently within a single platform.",
     Date: "Apr 2022",
@@ -218,6 +219,35 @@ export const projects: TProject = [
       "Graph-Ql",
       "SQl",
     ],
+  },
+  {
+    projectName: "Kanban task management web app",
+    descrp:
+      "A fully authenticated Web task manager app where you can create boards, add tasks to each board and manage them.",
+    skills: [
+      "Html",
+      "Css",
+      "Typescript",
+      "Nextjs",
+      "Next Auth",
+      "TailwindCSS",
+      "Shadcn-ui",
+      "Zustand",
+      "Prisma",
+      "mongodb",
+      "react-hot-toast",
+      "react-hook-form"
+    ],
+    img: ["/images/kanban.png"],
+    codeLink: "https://github.com/TasneemFand/Kanban-task-management-web-app",
+    MyWorks: [
+      "Worked on creating responsive user dashboard interface with light/dark mode.",
+      "Implemented user authentication using Next Auth.",
+      "Implemented backend APIs with prisma and MongoDB database.",
+      "Implemented creation, edition and deletion of boards and tasks.",
+      "Implemented edition the status of the task and marking of its subtasks as done."
+    ],
+    Date: "Oct 2023 - Nov 2023 ",
   },
   {
     projectName: "Multimedia messaging App",
@@ -254,18 +284,19 @@ export const projects: TProject = [
   },
   {
     projectName: "Amazon App Dashboard",
-    excerpt: "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
+    excerpt:
+      "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
     descrp:
       "A Simple web dashboard created with next js, material ui for styling and firebase for backend and authentication. it allows clients to view dashboard content, view categories and their items for purchasing.",
     img: ["/images/AmazonDashboard.webp"],
     codeLink: "https://github.com/TasneemFand/Amazon-app",
     Date: "Oct 2022 - Nov 2022",
     MyWorks: [
-      'Worked on creating responsive user dashboard interface with a sidebar that contains categories.',
-      'Developed server-side rendered dashboard products page and product details page.',
-      'Built a search bar for searching products by name or category.',
-      'Implemented realtime database with firebase.',
-      'Implemented authentication with firebase-auth.'
+      "Worked on creating responsive user dashboard interface with a sidebar that contains categories.",
+      "Developed server-side rendered dashboard products page and product details page.",
+      "Built a search bar for searching products by name or category.",
+      "Implemented realtime database with firebase.",
+      "Implemented authentication with firebase-auth.",
     ],
     skills: [
       "Html",
@@ -279,8 +310,8 @@ export const projects: TProject = [
   },
   {
     projectName: "Blogger",
-    excerpt: 'A fully responsive Blogger Web App',
-    descrp: 
+    excerpt: "A fully responsive Blogger Web App",
+    descrp:
       "A fully responsive Blogger Web App created with next js, Tailwind CSS for styling and GraphCMS which is a headless content management system based on GraphQL to manage the blogs content with hygraph platform. The app allows clients to view blogger content posts and full markdown articles based on categories, interacting with it by adding comments and showing the most common and recent posts.",
     img: ["/images/bloggr.webp"],
     skills: [
@@ -310,10 +341,10 @@ export const projects: TProject = [
     Date: "Sep 2021",
     img: ["/images/travel.webp"],
     MyWorks: [
-      'Worked on creating responsive user interface with a searchbar.',
-      'Developed map with Geolocation.',
-      'Built searching for places around the current location and displayed the info of each place in a list.',
-      'Implemented Fetching restaurants, hotels and attractions from APIs.',
+      "Worked on creating responsive user interface with a searchbar.",
+      "Developed map with Geolocation.",
+      "Built searching for places around the current location and displayed the info of each place in a list.",
+      "Implemented Fetching restaurants, hotels and attractions from APIs.",
     ],
     skills: [
       "Html",
