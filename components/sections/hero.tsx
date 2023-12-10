@@ -41,15 +41,14 @@ export const Hero = () => {
               </p>
 
               <p className="mt-7 mb-7 text-3xl text-center md:text-start uppercase font-semibold">
-                I am a frontend web developer
+                I am a web developer
               </p>
               <p
                 className="text-xl text-center md:text-start leading-8 mt-7 text-[#B1B2B3] font-semibold
               "
               >
-                experienced in creating immersive and engaging user experiences.
-                Skilled in developing responsive web solutions. I am Dedicated
-                to writing clean code and producing high-quality results with
+                experienced in creating dynamic web applications and websites.
+                I am Dedicated to writing clean code and producing high-quality results with
                 the ability to meet deadlines.
               </p>
             </motion.div>
