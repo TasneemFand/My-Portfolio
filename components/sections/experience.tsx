@@ -59,6 +59,7 @@ export const Experience = () => {
             hidden: { opacity: 0, x: 50 },
             visible: { opacity: 1, x: 0 },
           }}
+          className=" max-[640px]:hidden"
         >
           <div className="flex flex-col justify-start gap-5">
             <p className="font-semibold text-3xl text-[#F2F3F4]">Experience</p>
@@ -72,6 +73,17 @@ export const Experience = () => {
             </Timeline>
           </div>
         </motion.div>
+        <div className=" flex-col justify-start gap-5 hidden  max-[640px]:flex">
+            <p className="font-semibold text-3xl text-[#F2F3F4]">Experience</p>
+            <Timeline>
+              {experience.map((item) => (
+                <Timeline.Item key={item.companyName}>
+                  <Timeline.Point/>
+                  <ExperienceCardItem info={item} />
+                </Timeline.Item>
+              ))}
+            </Timeline>
+          </div>
       </div>
     </section>
   );
