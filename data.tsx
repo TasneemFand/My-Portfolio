@@ -21,12 +21,12 @@ export type TExperience = {
   startData: string;
   endDate: string;
   skills: string[];
-  descrp: string;
+  descrp?: string;
   img: string;
   worktype: string;
   location: string;
   tasks: string[];
-  link: string;
+  link?: string;
 }[];
 
 export type TProject = {
@@ -44,13 +44,13 @@ export type TProject = {
 
 export const skills: TSkills = [
   {
-    name: "html",
-    img: "/images/html.webp",
+    name: "react js",
+    img: "/images/React.webp",
     width: 100,
   },
   {
-    name: "css",
-    img: "/images/CSS.webp",
+    name: "next js",
+    img: "/images/next.webp",
     width: 100,
   },
   {
@@ -64,23 +64,23 @@ export const skills: TSkills = [
     width: 100,
   },
   {
-    name: "react js",
-    img: "/images/React.webp",
-    width: 100,
+    name: "Prisma",
+    img: "/images/prisma.webp",
+    width: 100
   },
   {
-    name: "next js",
-    img: "/images/next.webp",
-    width: 100,
+    name: "MongoDB",
+    img: "/images/mongoDB.webp",
+    width: 100
   },
   {
-    name: "ext js",
-    img: "/images/extJs.webp",
-    width: 100,
+    name: "Express",
+    img: "/images/express.webp",
+    width: 100
   },
   {
-    name: "material ui",
-    img: "/images/mui.webp",
+    name: "react router",
+    img: "/images/ReactRouter.webp",
     width: 100,
   },
   {
@@ -99,8 +99,18 @@ export const skills: TSkills = [
     width: 100,
   },
   {
-    name: "react router",
-    img: "/images/ReactRouter.webp",
+    name: "graph ql",
+    img: "/images/GraphQl.webp",
+    width: 100,
+  },
+  {
+    name: "html",
+    img: "/images/html.webp",
+    width: 100,
+  },
+  {
+    name: "css",
+    img: "/images/CSS.webp",
     width: 100,
   },
   {
@@ -109,8 +119,13 @@ export const skills: TSkills = [
     width: 100,
   },
   {
-    name: "graph ql",
-    img: "/images/GraphQl.webp",
+    name: "ext js",
+    img: "/images/extJs.webp",
+    width: 100,
+  },
+  {
+    name: "material ui",
+    img: "/images/mui.webp",
     width: 100,
   },
   {
@@ -152,6 +167,36 @@ export const education: TEducation = [
 
 export const experience: TExperience = [
   {
+    companyName: "Freelance",
+    position: "Fullstack Web Developer",
+    startData: "Dec 2023",
+    endDate: "Present",
+    worktype: "Remotely",
+    location: "Europe",
+    img: "/images/freelance.png",
+    tasks: [
+      "Collaborate with the designer to ensure a seamless user experience.",
+      "Create seamless user interfaces using Next.js, React, HTML, Tailwindcss.",
+      "Implement backend functionality with Prisma ORM and integrate with mongoDB for database operations.",
+      "Optimize the application for performance and scalability.",
+      "Debugged and fixed bugs of the application.",
+    ],
+    skills: [
+      "Full-Stack Development",
+      "Next JS",
+      "React JS",
+      "TypeScript",
+      "Prisma ORM",
+      "MongoDB",
+      "HTML",
+      "CSS",
+      "Tailwind CSS",
+      "Figma",
+      "Responsive web design",
+      "Git"
+    ],
+  },
+  {
     companyName: "EcoMundo",
     position: "Frontend Web Developer",
     startData: "Feb 2022",
@@ -171,15 +216,15 @@ export const experience: TExperience = [
       "Presented product demos to the client.",
     ],
     skills: [
-      "HTML",
-      "CSS",
+      "React JS",
       "JavaScript",
       "TypeScript",
-      "React JS",
       "Ext JS",
+      "React Router",
       "React Query",
       "Recoil",
-      "React Router",
+      "HTML",
+      "CSS",
       "Material UI",
       "Graph QL",
       "Agile",

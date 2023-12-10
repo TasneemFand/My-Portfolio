@@ -4,6 +4,7 @@ import { education, experience } from "@/data";
 import { motion } from "framer-motion";
 import { EducationCardItem } from "../EducationCardItem";
 import { ExperienceCardItem } from "../ExperienceCardItem";
+import { Timeline } from "flowbite-react";
 
 export const Experience = () => {
   return (
@@ -61,9 +62,14 @@ export const Experience = () => {
         >
           <div className="flex flex-col justify-start gap-5">
             <p className="font-semibold text-3xl text-[#F2F3F4]">Experience</p>
-            {experience.map((item) => (
-              <ExperienceCardItem key={item.companyName} info={item} />
-            ))}
+            <Timeline>
+              {experience.map((item) => (
+                <Timeline.Item key={item.companyName}>
+                  <Timeline.Point/>
+                  <ExperienceCardItem info={item} />
+                </Timeline.Item>
+              ))}
+            </Timeline>
           </div>
         </motion.div>
       </div>
