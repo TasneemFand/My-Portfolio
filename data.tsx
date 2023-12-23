@@ -326,6 +326,7 @@ export const projects: TProject = [
     ],
     img: [
       "/images/kanban.png",
+      "/images/kanban.png",
       "/images/kanban-0.jpeg",
       "/images/kanban-1.jpeg",
       "/images/kanban-2.jpeg",
