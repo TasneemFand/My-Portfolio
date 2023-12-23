@@ -66,17 +66,17 @@ export const skills: TSkills = [
   {
     name: "Prisma",
     img: "/images/prisma.webp",
-    width: 100
+    width: 100,
   },
   {
     name: "MongoDB",
     img: "/images/mongoDB.webp",
-    width: 100
+    width: 100,
   },
   {
     name: "Express",
     img: "/images/express.webp",
-    width: 100
+    width: 100,
   },
   {
     name: "react router",
@@ -193,7 +193,7 @@ export const experience: TExperience = [
       "Tailwind CSS",
       "Figma",
       "Responsive web design",
-      "Git"
+      "Git",
     ],
   },
   {
@@ -266,6 +266,47 @@ export const projects: TProject = [
     ],
   },
   {
+    projectName: "Real estate web app",
+    descrp:
+      "A fully authenticated MERN Web dashboard for the agent and all properties.",
+    skills: [
+      "Reactjs",
+      "Express",
+      "Mongoose",
+      "NodeJs",
+      "Typescript",
+      "React Router",
+      "React Query",
+      "Html",
+      "Css",
+      "TailwindCSS",
+      "Shadcn-ui",
+      "Zustand",
+    ],
+    img: [
+      "/images/realEstate.png",
+      "/images/realEstate-1.png",
+      "/images/realEstate-0.png",
+      "/images/realEstate-3.png",
+      "/images/realEstate-4.png",
+      "/images/realEstate-5.png",
+      "/images/realEstate-6.png",
+      "/images/realEstate-7.png",
+    ],
+    codeLink: "https://github.com/TasneemFand/Real-Estate-Web-App",
+    MyWorks: [
+      "Worked on creating responsive user interfaces with light/dark mode.",
+      "Implemented user authentication.",
+      "Implemented backend APIs with express and mongoose.",
+      "Filtering the properties.",
+      "Implemented the pagination of properties table.",
+      "Creation of new property.",
+      "Displying property details.",
+      "supporting Multilingual.",
+    ],
+    Date: "Nov 2023 - Dec 2023 ",
+  },
+  {
     projectName: "Kanban task management web app",
     descrp:
       "A fully authenticated Web task manager app where you can create boards, add tasks to each board and manage them.",
@@ -281,16 +322,25 @@ export const projects: TProject = [
       "Prisma",
       "mongodb",
       "react-hot-toast",
-      "react-hook-form"
+      "react-hook-form",
     ],
-    img: ["/images/kanban.png"],
+    img: [
+      "/images/kanban.png",
+      "/images/kanban-0.jpeg",
+      "/images/kanban-1.jpeg",
+      "/images/kanban-2.jpeg",
+      "/images/kanban-3.jpeg",
+      "/images/kanban-4.jpeg",
+      "/images/kanban-5.jpeg",
+      "/images/kanban-6.jpeg",
+    ],
     codeLink: "https://github.com/TasneemFand/Kanban-task-management-web-app",
     MyWorks: [
       "Worked on creating responsive user dashboard interface with light/dark mode.",
       "Implemented user authentication using Next Auth.",
       "Implemented backend APIs with prisma and MongoDB database.",
       "Implemented creation, edition and deletion of boards and tasks.",
-      "Implemented edition the status of the task and marking of its subtasks as done."
+      "Implemented edition the status of the task and marking of its subtasks as done.",
     ],
     Date: "Oct 2023 - Nov 2023 ",
   },
@@ -315,7 +365,17 @@ export const projects: TProject = [
       "Next-themes",
       "uploadThing",
     ],
-    img: ["/images/chatApp.webp"],
+    img: [
+      "/images/chatApp.webp",
+      "/images/multimedia-0.png",
+      "/images/multimedia-1.png",
+      "/images/multimedia-2.png",
+      "/images/multimedia-3.png",
+      "/images/multimedia-4.png",
+      "/images/multimedia-5.png",
+      "/images/multimedia-6.png",
+      "/images/multimedia-7.png",
+    ],
     codeLink: "https://github.com/TasneemFand/Multimedia-messaging-platform",
     MyWorks: [
       "Worked on creating responsive user dashboard interfaces with light/dark mode.",
@@ -333,7 +393,7 @@ export const projects: TProject = [
       "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
     descrp:
       "A Simple web dashboard created with next js, material ui for styling and firebase for backend and authentication. it allows clients to view dashboard content, view categories and their items for purchasing.",
-    img: ["/images/AmazonDashboard.webp"],
+    img: ["/images/AmazonDashboard.webp","/images/Amazon.png"],
     codeLink: "https://github.com/TasneemFand/Amazon-app",
     Date: "Oct 2022 - Nov 2022",
     MyWorks: [
@@ -358,7 +418,7 @@ export const projects: TProject = [
     excerpt: "A fully responsive Blogger Web App",
     descrp:
       "A fully responsive Blogger Web App created with next js, Tailwind CSS for styling and GraphCMS which is a headless content management system based on GraphQL to manage the blogs content with hygraph platform. The app allows clients to view blogger content posts and full markdown articles based on categories, interacting with it by adding comments and showing the most common and recent posts.",
-    img: ["/images/bloggr.webp"],
+    img: ["/images/bloggr.webp","/images/blog-0.png"],
     skills: [
       "Html",
       "Css",
@@ -384,7 +444,7 @@ export const projects: TProject = [
       "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map.",
     codeLink: "https://github.com/TasneemFand/Travel-Advisor",
     Date: "Sep 2021",
-    img: ["/images/travel.webp"],
+    img: ["/images/travel.webp","/images/travelAdvisor.png"],
     MyWorks: [
       "Worked on creating responsive user interface with a searchbar.",
       "Developed map with Geolocation.",
@@ -405,7 +465,7 @@ export const projects: TProject = [
     projectName: "loopstudios landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/loopstudios.webp"],
+    img: ["/images/loopstudios.webp","/images/loopstudios.webp"],
     skills: [
       "Html",
       "Css",
@@ -423,7 +483,7 @@ export const projects: TProject = [
     projectName: "Blogr landing page ",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/blogr_preview.webp"],
+    img: ["/images/blogr_preview.webp","/images/blogr_preview.webp"],
     skills: [
       "Html",
       "Css",
@@ -441,7 +501,7 @@ export const projects: TProject = [
     projectName: "Shortly URL shortening API Challenge",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges. it allows users to Shorten any valid URL and See a list of their shortened links.",
-    img: ["/images/shorten.webp"],
+    img: ["/images/shorten.webp","/images/shorten.webp"],
     skills: [
       "Html",
       "Css",
@@ -459,7 +519,7 @@ export const projects: TProject = [
     projectName: "sunnyside agency landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/sunnyside.webp"],
+    img: ["/images/sunnyside.webp","/images/sunnyside.webp"],
     skills: [
       "Html",
       "Css",
