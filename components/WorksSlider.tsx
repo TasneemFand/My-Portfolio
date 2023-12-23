@@ -36,7 +36,7 @@ export const WorksSlider = () => {
     >
       {projects.map((project, index) => (
         <SwiperSlide key={index}>
-          <ProjectCard key={`project-${index}`} info={project}/>
+          <ProjectCard key={`project-${index}`} data={project} index={index}/>
         </SwiperSlide>
       ))}
     </Swiper>

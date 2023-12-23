@@ -27,7 +27,7 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
+ 
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -42,7 +42,7 @@ body,
  
 @layer base {
   * {
-  }
+      }
   body {
     @apply bg-background text-foreground;
   }
@@ -64,4 +64,8 @@ body,
 .focus\:ring-cyan-500:focus {
   outline: none !important;
   --tw-ring-color: unset !important
+}
+
+:is(.dark .dark\:bg-gray-800\/30){
+  background-color: rgb(255 255 255 / 0.3) !important;
 }
