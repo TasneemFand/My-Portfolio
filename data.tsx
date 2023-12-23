@@ -286,7 +286,7 @@ export const projects: TProject = [
     img: [
       "/images/realEstate.png",
       "/images/realestate-1.png",
-      "/images/realestate-0.png",
+      "/images/realEstate-0.png",
       "/images/realestate-3.png",
       "/images/realestate-4.png",
       "/images/realestate-5.png",
