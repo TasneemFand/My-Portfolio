@@ -1,11 +1,6 @@
 import { useModal } from "@/hooks/use-modal";
 import Image from "next/image";
-import {
-  Dialog,
-  DialogContent,
-  DialogHeader,
-  DialogTitle,
-} from "./ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "./ui/dialog";
 import { Carousel } from "flowbite-react";
 
 export const ProjectModal = () => {
@@ -75,6 +70,15 @@ export const ProjectModal = () => {
               >
                 View Code
               </a>
+              {data.Project?.data?.liveLink ? (
+                <a
+                  target="_blank"
+                  href={data.Project?.data?.liveLink}
+                  className="transition-all cursor-pointer hover:bg-[rgba(133,76,230,0.6)] ease-in-out duration-[0.5s] hover:bg[rgba(133,76,230,0.6)]  font-medium rounded-lg text-sm px-5 py-2.5 text-center bg-[rgb(133,76,230)] text-[rgb(210,211,212)]"
+                >
+                  Live Link
+                </a>
+              ) : null}
             </div>
           ) : null}
         </div>

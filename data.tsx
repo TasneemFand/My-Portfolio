@@ -266,6 +266,30 @@ export const projects: TProject = [
     ],
   },
   {
+    projectName: "Travel UI/UX Website",
+    descrp:
+      "A Fully Responsive UI/UX Website",
+    img: ["/images/travelWebsite.png","/images/travelWebsite.png"],
+    skills: [
+      "reactjs",
+      "Tailwind css",
+      "Html5",
+      "Flexbox",
+      "CSSGrid",
+      "mobile-design",
+      "large-screens-design"
+    ],
+    codeLink: "https://github.com/TasneemFand/Travel_app_UI-UX",
+    liveLink: "https://travel-app-ui-ux-flax.vercel.app/",
+    MyWorks: [
+      "Worked on creating responsive user interface.",
+      "Implemented Figma design to code.",
+      "Optimized responsive images",
+      "Displayed the wbsite on mobile and large screens",
+    ],
+    Date: "Dec 2023",
+  },
+  {
     projectName: "Real estate web app",
     descrp:
       "A fully authenticated MERN Web dashboard for the agent and all properties.",
