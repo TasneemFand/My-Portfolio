@@ -6,8 +6,8 @@ import Link from "next/link";
 export const Header = () => {
   return (
     <header className="py-8 bg-[#191924]">
-      <div className="container mx-auto">
-        <div className="flex justify-between items-center">
+      {/* <div className="container mx-auto"> */}
+        <div className="flex justify-between items-center px-8 max-[640px]:px-4">
           {/**logo */}
           <Image
             src={"/images/logo.webp"}
@@ -30,7 +30,7 @@ export const Header = () => {
             Hire Me
           </Link>
         </div>
-      </div>
+      {/* </div> */}
     </header>
   );
 };

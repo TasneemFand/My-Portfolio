@@ -35,16 +35,16 @@ export const Hero = () => {
                 visible: { opacity: 1, x: 0 },
               }}
             >
-              <p className="text-6xl text-center lg:text-start">
+              <p className="text-6xl text-center min-[960px]:text-start max-[1024px]:text-5xl max-[640px]:text-4xl">
                 Tasneem {""}
                 <span className="text-purple-800 font-semibold">Fandakli</span>
               </p>
 
-              <p className="mt-7 mb-7 text-3xl text-center md:text-start uppercase font-semibold">
+              <p className="mt-7 mb-7 text-3xl text-center min-[960px]:text-start uppercase font-semibold max-[640px]:text-2xl">
                 I am a web developer
               </p>
               <p
-                className="text-xl text-center md:text-start leading-8 mt-7 text-[#B1B2B3] font-semibold
+                className="text-xl max-[640px]:text-lg text-center min-[960px]:text-start max-[960px]:max-w-[550px] max-[640px]:max-w-[450px] leading-8 mt-7 text-[#B1B2B3] font-semibold
               "
               >
                 experienced in creating dynamic web applications and websites.

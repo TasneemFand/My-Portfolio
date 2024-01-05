@@ -44,7 +44,7 @@ export const ProjectModal = () => {
           </div>
           {data.Project?.data?.MyWorks ? (
             <div>
-              <div className="text-base font-semibold  max-[768px]:text-sm ">
+              <div className="text-base font-semibold  max-[768px]:text-sm mb-3 ">
                 What I worked on:
               </div>
               <div className="text-sm  max-[768px]:text-xs leading-7 max-[768px]:leading-5 flex flex-wrap px-4">

@@ -24,7 +24,7 @@ export const Experience = () => {
         className="flex justify-end w-full"
       >
         <div className="px-8">
-          <p className="font-semibold text-5xl text-center text-white">
+          <p className="font-semibold text-5xl text-center text-white max-[640px]:text-4xl">
             My Journey
           </p>
           <div className="flex md:justify-end mt-5">
@@ -44,7 +44,7 @@ export const Experience = () => {
           }}
         >
           <div className="flex flex-col justify-start gap-5">
-            <p className="font-semibold text-3xl text-[#F2F3F4]">Education</p>
+            <p className="font-semibold text-3xl text-[#F2F3F4] max-[640px]:text-2xl">Education</p>
             {education.map((item) => (
               <EducationCardItem key={item.faculty} info={item} />
             ))}
@@ -62,7 +62,7 @@ export const Experience = () => {
           className=" max-[640px]:hidden"
         >
           <div className="flex flex-col justify-start gap-5">
-            <p className="font-semibold text-3xl text-[#F2F3F4]">Experience</p>
+            <p className="font-semibold text-3xl text-[#F2F3F4] max-[640px]:text-2xl">Experience</p>
             <Timeline>
               {experience.map((item) => (
                 <Timeline.Item key={item.companyName}>
@@ -73,8 +73,8 @@ export const Experience = () => {
             </Timeline>
           </div>
         </motion.div>
-        <div className=" flex-col justify-start gap-5 hidden  max-[640px]:flex">
-            <p className="font-semibold text-3xl text-[#F2F3F4]">Experience</p>
+        <div className=" flex-col justify-start gap-5 hidden  max-[640px]:flex ">
+            <p className="font-semibold text-3xl text-[#F2F3F4] max-[640px]:text-2xl">Experience</p>
             <Timeline>
               {experience.map((item) => (
                 <Timeline.Item key={item.companyName}>

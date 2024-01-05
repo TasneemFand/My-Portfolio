@@ -57,7 +57,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-4">
       <div className="flex flex-col items-center gap-8 py-8 max-[960px]:px-4 max-[640px]:px-4">
-        <div className="font-semibold text-5xl text-center text-white">
+        <div className="font-semibold text-5xl text-center text-white max-[640px]:text-4xl">
           Let's <span className="text-[#854CE6]">Connect!</span>
         </div>
         {alert.show ? (
@@ -75,7 +75,7 @@ export const Contact = () => {
         <form
           ref={form}
           onSubmit={handleSubmit}
-          className="flex flex-col gap-3 w-[70%] max-w-[600px] bg-[#171721] px-8 py-8 rounded-2xl shadow-[rgba(23,92,230,0.15)_0px_4px_24px]"
+          className="flex flex-col gap-3 w-[70%] max-w-[600px] max-[640px]:w-full bg-[#171721] px-8 py-8 rounded-2xl shadow-[rgba(23,92,230,0.15)_0px_4px_24px]"
         >
           <TextInput
             id="email"

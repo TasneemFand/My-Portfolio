@@ -23,7 +23,7 @@ export const Skills = () => {
       >
         <div className="flex flex-col gap-5">
           <div className="flex justify-center">
-            <p className="font-semibold text-5xl text-center text-white">
+            <p className="font-semibold text-5xl text-center text-white max-[640px]:text-4xl">
               My Skills
             </p>
           </div>
@@ -34,7 +34,7 @@ export const Skills = () => {
             </div>
           </div>
         </div>
-        <p className="my-7 text-xl text-center text-[#B1B2B3] font-semibold leading-8">
+        <p className="my-7 text-xl max-[640px]:text-lg text-center text-[#B1B2B3] font-semibold leading-8 max-[960px]:max-w-[550px] max-[640px]:max-w-[450px]">
           These are some of the most technologies which I have been working with
           for over two years
         </p>
