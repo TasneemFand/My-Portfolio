@@ -70,7 +70,7 @@ export const Hero = () => {
                 className="rounded-2xl py-3 px-7 font-semibold  max-w-[300px] 
                 bg-[#8400FF] bg-gradient-to-r from-[#8400FF] to-[#E500FF] brightness-100
                 "
-                href="https://drive.google.com/file/d/1Q5oOasrCApdF5fbfjAoqu67NRb_j-6FO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1UaR5fs9rIjJezqOoSNZ9Rbl6Dnm8VPEz/view?usp=sharing"
               >
                 Check Resume
               </Link>

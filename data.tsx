@@ -167,10 +167,38 @@ export const education: TEducation = [
 
 export const experience: TExperience = [
   {
+    companyName: "CUBE Media",
+    position: "Senior Frontend Developer",
+    startData: "Mar 2024",
+    endDate: "Present",
+    worktype: "On-site",
+    location: "Damascus, Syria",
+    img: "/images/cube_media_team_logo.jpg",
+    descrp: "An IT company located in Turkey, Istanbul and has a branch in syria, established in 2014.",
+    link: "https://www.linkedin.com/company/cube-media-team",
+    tasks: [
+      "Working on developing an ERP Web application",
+      "Initialize frontend application architecture",
+      "Collaborate with designer and product owner to ensure that the product meets the needs of both the users and the business.",
+      "Develop responsive and highly performance modules using React, HTML, MUI, CSS",
+      "Optimize the application for performance and scalability."
+    ],
+    skills: ["Frontend Development", "React","TypeScript", 
+    "React Router",
+    "React Query",
+    "Reach hook Form",
+    "Html", "CSS", "Material-ui",
+    "Material React Table",
+    "Agile",
+    "Git",
+    "Microsoft Azure",
+    "Ensure performance", "Responsive Web Design"]
+  },
+  {
     companyName: "Freelance",
     position: "Fullstack Web Developer",
     startData: "Dec 2023",
-    endDate: "Present",
+    endDate: "Feb 2024",
     worktype: "Remotely",
     location: "Europe",
     img: "/images/freelance.png",
@@ -264,6 +292,35 @@ export const projects: TProject = [
       "Graph-Ql",
       "SQl",
     ],
+  },
+  { 
+    projectName: "LMS Platform", 
+    descrp: 
+      "A Fully responsive and authenticated web application with a student dashboard and teacher mode.", 
+      skills: [ 
+      "Nextjs", 
+      "Typescript", 
+      "clerk auth", 
+      "Html", 
+      "Css", 
+      "Shadcn-ui", 
+      "TailwindCSS", 
+      "Prisma", 
+      "mongodb", 
+      "Stripe", 
+      "Mux video player"   
+    ], 
+    codeLink: "https://github.com/TasneemFand/LMS-Platform", 
+    MyWorks: [ 
+      "Worked on creating responsive user interfaces.", 
+      "Implemented user authentication.", 
+      "Implemented backend APIs with prisma.", 
+      "Developed the student dashboard, where user can browse courses, purchase, complete the chapters of course.", 
+      "Developed Teacher mode, where teacher can create new courses and new chapters, publish the courses." 
+    ], 
+    liveLink: "https://lms-platform-six-zeta.vercel.app/", 
+    Date: "Jan 2024 -  Feb 2024 ", 
+    img: ["/images/lms1.png", "/images/lms.png"] 
   },
   {
     projectName: "Travel UI/UX Website",
