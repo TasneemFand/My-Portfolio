@@ -408,14 +408,8 @@ export const projects: TProject = [
     img: [
       "/images/kanban.png",
       "/images/kanban.png",
-      "/images/kanban-0.jpeg",
-      "/images/kanban-1.jpeg",
-      "/images/kanban-2.jpeg",
-      "/images/kanban-3.jpeg",
-      "/images/kanban-4.jpeg",
-      "/images/kanban-5.jpeg",
-      "/images/kanban-6.jpeg",
     ],
+    liveLink: "https://kanban-task-management-web-app-zeta.vercel.app",
     codeLink: "https://github.com/TasneemFand/Kanban-task-management-web-app",
     MyWorks: [
       "Worked on creating responsive user dashboard interface with light/dark mode.",
