@@ -167,67 +167,74 @@ export const education: TEducation = [
 
 export const experience: TExperience = [
   {
+    companyName: "L-one Systems",
+    position: "JavaScript Developer",
+    startData: "Jul 2024",
+    endDate: "Oct 2-24",
+    worktype: "On-site",
+    location: "Damascus, Syria",
+    img: "",
+    descrp:
+      "A Firm specializing in outsourcing services that combine quality and cost-efficiency, headquartered in Darmstadt, Hessen, Germany, with an office in Damascus.",
+    link: "https://l-one.software/kennenlernen",
+    tasks: [
+      "Communicated with the client to handle his requests, and provided daily updates to ensure transparency and customer satisfaction.",
+      "Worked on the migration of the client’s application from JavaScript to TypeScript, improving type safety and reducing runtime errors.",
+      "Performed in-depth debugging, analyzing code and tracking down errors.",
+      "Efficiently handled and improved legacy codebases, even in environments with limited documentation.",
+      "Identified and resolved critical issues.",
+    ],
+    skills: [
+      "Frontend Development",
+      "JavaScript",
+      "TypeScript",
+      "Debugging",
+      "Bug Tracking",
+      "Agile",
+      "Git",
+    ],
+  },
+  {
     companyName: "CUBE Media",
     position: "Senior Frontend Developer",
-    startData: "Mar 2024",
-    endDate: "Present",
+    startData: "Jan 2024",
+    endDate: "Jun 2-24",
     worktype: "On-site",
     location: "Damascus, Syria",
     img: "/images/cube_media_team_logo.jpg",
-    descrp: "An IT company located in Turkey, Istanbul and has a branch in syria, established in 2014.",
+    descrp:
+      "A startup IT company leading major projects located in Istanbul and Damascus.",
     link: "https://www.linkedin.com/company/cube-media-team",
     tasks: [
-      "Working on developing an ERP Web application",
-      "Initialize frontend application architecture",
-      "Collaborate with designer and product owner to ensure that the product meets the needs of both the users and the business.",
-      "Develop responsive and highly performance modules using React, HTML, MUI, CSS",
-      "Optimize the application for performance and scalability."
-    ],
-    skills: ["Frontend Development", "React","TypeScript", 
-    "React Router",
-    "React Query",
-    "Reach hook Form",
-    "Html", "CSS", "Material-ui",
-    "Material React Table",
-    "Agile",
-    "Git",
-    "Microsoft Azure",
-    "Ensure performance", "Responsive Web Design"]
-  },
-  {
-    companyName: "Freelance",
-    position: "Fullstack Web Developer",
-    startData: "Dec 2023",
-    endDate: "Feb 2024",
-    worktype: "Remotely",
-    location: "Europe",
-    img: "/images/freelance.png",
-    tasks: [
-      "Collaborate with the designer to ensure a seamless user experience.",
-      "Create seamless user interfaces using Next.js, React, HTML, Tailwindcss.",
-      "Implement backend functionality with Prisma ORM and integrate with mongoDB for database operations.",
-      "Optimize the application for performance and scalability.",
-      "Debugged and fixed bugs of the application.",
+      "Architected the frontend for a medium-to large-scale SaaS application.",
+      "Researched and selected the most suitable libraries.",
+      "Developed responsive user interfaces using React, HTML, MUI, CSS, ensuring scalability.",
+      "Created demo APIs to present realistic data to the client during demos.",
+      "Collaborated closely with the designer and product owner to align the product with both user and business needs.",
+      "Created clean, generic components to establish a robust foundation for future growth.",
     ],
     skills: [
-      "Full-Stack Development",
-      "Next JS",
-      "React JS",
+      "Frontend Development",
+      "React",
       "TypeScript",
-      "Prisma ORM",
-      "MongoDB",
-      "HTML",
+      "React Router",
+      "React Query",
+      "Reach hook Form",
+      "Html",
       "CSS",
-      "Tailwind CSS",
-      "Figma",
-      "Responsive web design",
+      "Material-ui",
+      "Material React Table",
+      "Agile",
       "Git",
+      "Microsoft Azure",
+      "Ensure performance",
+      "Responsive Web Design",
     ],
   },
   {
     companyName: "EcoMundo",
     position: "Frontend Web Developer",
-    startData: "Feb 2022",
+    startData: "Nov 2021",
     endDate: "Oct 2023",
     worktype: "Remotely",
     location: "Issy-les-Moulineaux, Île-de-France, France",
@@ -293,40 +300,39 @@ export const projects: TProject = [
       "SQl",
     ],
   },
-  { 
-    projectName: "LMS Platform", 
-    descrp: 
-      "A Fully responsive and authenticated web application with a student dashboard and teacher mode.", 
-      skills: [ 
-      "Nextjs", 
-      "Typescript", 
-      "clerk auth", 
-      "Html", 
-      "Css", 
-      "Shadcn-ui", 
-      "TailwindCSS", 
-      "Prisma", 
-      "mongodb", 
-      "Stripe", 
-      "Mux video player"   
-    ], 
-    codeLink: "https://github.com/TasneemFand/LMS-Platform", 
-    MyWorks: [ 
-      "Worked on creating responsive user interfaces.", 
-      "Implemented user authentication.", 
-      "Implemented backend APIs with prisma.", 
-      "Developed the student dashboard, where user can browse courses, purchase, complete the chapters of course.", 
-      "Developed Teacher mode, where teacher can create new courses and new chapters, publish the courses." 
-    ], 
-    liveLink: "https://lms-platform-six-zeta.vercel.app/", 
-    Date: "Jan 2024 -  Feb 2024 ", 
-    img: ["/images/lms1.png", "/images/lms.png"] 
+  {
+    projectName: "LMS Platform",
+    descrp:
+      "A Fully responsive and authenticated web application with a student dashboard and teacher mode.",
+    skills: [
+      "Nextjs",
+      "Typescript",
+      "clerk auth",
+      "Html",
+      "Css",
+      "Shadcn-ui",
+      "TailwindCSS",
+      "Prisma",
+      "mongodb",
+      "Stripe",
+      "Mux video player",
+    ],
+    codeLink: "https://github.com/TasneemFand/LMS-Platform",
+    MyWorks: [
+      "Worked on creating responsive user interfaces.",
+      "Implemented user authentication.",
+      "Implemented backend APIs with prisma.",
+      "Developed the student dashboard, where user can browse courses, purchase, complete the chapters of course.",
+      "Developed Teacher mode, where teacher can create new courses and new chapters, publish the courses.",
+    ],
+    liveLink: "https://lms-platform-six-zeta.vercel.app/",
+    Date: "Jan 2024 -  Feb 2024 ",
+    img: ["/images/lms1.png", "/images/lms.png"],
   },
   {
     projectName: "Travel UI/UX Website",
-    descrp:
-      "A Fully Responsive UI/UX Website",
-    img: ["/images/travelWebsite.png","/images/travelWebsite.png"],
+    descrp: "A Fully Responsive UI/UX Website",
+    img: ["/images/travelWebsite.png", "/images/travelWebsite.png"],
     skills: [
       "reactjs",
       "Tailwind css",
@@ -334,7 +340,7 @@ export const projects: TProject = [
       "Flexbox",
       "CSSGrid",
       "mobile-design",
-      "large-screens-design"
+      "large-screens-design",
     ],
     codeLink: "https://github.com/TasneemFand/Travel_app_UI-UX",
     liveLink: "https://travel-app-ui-ux-flax.vercel.app/",
@@ -475,7 +481,7 @@ export const projects: TProject = [
       "A Simple web dashboard, it allows clients to view dashboard content, view categories and their items for purchasing.",
     descrp:
       "A Simple web dashboard created with next js, material ui for styling and firebase for backend and authentication. it allows clients to view dashboard content, view categories and their items for purchasing.",
-    img: ["/images/AmazonDashboard.webp","/images/Amazon.png"],
+    img: ["/images/AmazonDashboard.webp", "/images/Amazon.png"],
     codeLink: "https://github.com/TasneemFand/Amazon-app",
     Date: "Oct 2022 - Nov 2022",
     MyWorks: [
@@ -500,7 +506,7 @@ export const projects: TProject = [
     excerpt: "A fully responsive Blogger Web App",
     descrp:
       "A fully responsive Blogger Web App created with next js, Tailwind CSS for styling and GraphCMS which is a headless content management system based on GraphQL to manage the blogs content with hygraph platform. The app allows clients to view blogger content posts and full markdown articles based on categories, interacting with it by adding comments and showing the most common and recent posts.",
-    img: ["/images/bloggr.webp","/images/blog-0.png"],
+    img: ["/images/bloggr.webp", "/images/blog-0.png"],
     skills: [
       "Html",
       "Css",
@@ -526,7 +532,7 @@ export const projects: TProject = [
       "A Simple travel website created with React js, Mapbox map that work in react leaflet, Geolocation. where users can search and filter places (restaurants, hotels and attractions) based on location and see the results on the map.",
     codeLink: "https://github.com/TasneemFand/Travel-Advisor",
     Date: "Sep 2021",
-    img: ["/images/travel.webp","/images/travelAdvisor.png"],
+    img: ["/images/travel.webp", "/images/travelAdvisor.png"],
     MyWorks: [
       "Worked on creating responsive user interface with a searchbar.",
       "Developed map with Geolocation.",
@@ -547,7 +553,7 @@ export const projects: TProject = [
     projectName: "loopstudios landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/loopstudios.webp","/images/loopstudios.webp"],
+    img: ["/images/loopstudios.webp", "/images/loopstudios.webp"],
     skills: [
       "Html",
       "Css",
@@ -565,7 +571,7 @@ export const projects: TProject = [
     projectName: "Blogr landing page ",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/blogr_preview.webp","/images/blogr_preview.webp"],
+    img: ["/images/blogr_preview.webp", "/images/blogr_preview.webp"],
     skills: [
       "Html",
       "Css",
@@ -583,7 +589,7 @@ export const projects: TProject = [
     projectName: "Shortly URL shortening API Challenge",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges. it allows users to Shorten any valid URL and See a list of their shortened links.",
-    img: ["/images/shorten.webp","/images/shorten.webp"],
+    img: ["/images/shorten.webp", "/images/shorten.webp"],
     skills: [
       "Html",
       "Css",
@@ -601,7 +607,7 @@ export const projects: TProject = [
     projectName: "sunnyside agency landing page",
     descrp:
       "A fully responsive design to code challenge from Frontend Mentor challenges.",
-    img: ["/images/sunnyside.webp","/images/sunnyside.webp"],
+    img: ["/images/sunnyside.webp", "/images/sunnyside.webp"],
     skills: [
       "Html",
       "Css",
